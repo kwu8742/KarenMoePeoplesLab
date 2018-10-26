@@ -1,6 +1,6 @@
 package com.company;
 
-public class Person {
+public abstract class Person {
     private String FirstName;
     private String FamilyName;
 
@@ -9,11 +9,11 @@ public class Person {
         this.FamilyName = FamilyName;
     }
 
-    public String getFirstName() {
+    public abstract String getFirstName() {
         return this.FirstName;
     }
 
-    public String getFamilyName() {
+    public abstract String getFamilyName() {
         return this.FamilyName;
     }
 
